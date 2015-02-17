@@ -1,0 +1,21 @@
+{
+  "name": "Aeropuerto de Maiquetía (no oficial)",
+  "description": "Esta aplicación muestra el cronograma de vuelos nacionales e internacionales del Aeropuerto Internacional de Maiquetía Simón Bolívar (CCS) de Venezuela, asi como la información relacionada a cada vuelo.",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/images/icon-60.png",
+    "128": "/images/icon-128.png"
+  },
+  "developer": {
+    "name": "Leonard Camacho",
+    "url": "https://twitter.com/leonardcamacho"
+  },
+  "version": "1.0",
+  "default_locale": "es",
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Es necesario para obtener la información de los vuelos desde la página del Aeropuerto de Maiquetía."
+    }
+  }
+}
